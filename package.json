@@ -1,6 +1,6 @@
 {
   "name": "react-native-vision-camera-text-recognition",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "A plugin to Scanning Text,Translate using ML Kit Text Recognition and ML Kit Translation. With High Performance and many features.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -91,13 +91,10 @@
     "react": "*",
     "react-native": "*"
   },
-  "workspaces": [
-    "example"
-  ],
+ 
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ]
   },
