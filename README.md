@@ -2,16 +2,17 @@
 
 A plugin to Scanning Text,Translate using ML Kit Text Recognition and ML Kit Translation. With High Performance and many features.
 # 🚨 Required Modules
-react-native-vision-camera = 4.5.1 <br/>
-react-native-worklets-core = 1.3.3 <br/>
+react-native-vision-camera = 4.7.0 <br/>
+react-native-worklets-core = 1.6.0 <br/>
+
+tested on RN 0.80.1 : at built : C++ probelm with this version of react-native-vision-camera
 
 ## 💻 Installation
 
 ```sh
-npm install react-native-vision-camera-text-recognition
-yarn add react-native-vision-camera-text-recognition
+yarn add react-native-vision-camera-text-recognition@https://github.com/Productivix/react-native-vision-camera-text-recognition
 ```
-## 👷Features
+## 👷original Features
     Easy To Use.
     Works Just Writing few lines of Code.
     Works With React Native Vision Camera.
